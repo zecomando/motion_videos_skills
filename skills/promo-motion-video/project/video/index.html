@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<title>promo</title>
+<style>
+  /* brand tokens: take them from research/info.json (colours, fonts) — never guess */
+  @font-face { font-family: 'Display'; src: url('../assets/fonts/display.woff2') format('woff2'); font-weight: 100 900; }
+  @font-face { font-family: 'Body'; src: url('../assets/fonts/body.woff2') format('woff2'); font-weight: 100 900; }
+  :root { --ink: #111214; --paper: #f4f1ec; --accent: #de4c2c; --muted: #6b6e74; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1920px; height: 1080px; overflow: hidden; background: var(--ink); }
+  body { font-family: 'Body', sans-serif; color: var(--paper); -webkit-font-smoothing: antialiased; }
+  #stage { position: absolute; inset: 0; overflow: hidden; }
+  .scene { position: absolute; inset: 0; display: none; overflow: hidden; z-index: 0; } /* own stacking context: z-indexes inside a scene never rise above the overlays */
+  .wm { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: 0.08em; margin-bottom: -0.08em; }
+  .wi { display: inline-block; will-change: transform; }
+  h1, h2 { font-family: 'Display', sans-serif; font-weight: 800; letter-spacing: -0.035em; line-height: 0.98; }
+  .abs { position: absolute; }
+  #grain { position: absolute; inset: 0; pointer-events: none; mix-blend-mode: overlay; z-index: 11; } /* wipes z 10, grain 11, fade 12 */
+</style>
+</head>
+<body>
+<div id="stage">
+  <section class="scene" id="hook">
+    <h1 id="hookTitle" class="abs" style="left:160px;top:380px;font-size:120px">Um evento. Uma loja. Uma campanha.</h1>
+  </section>
+  <section class="scene" id="brand" style="background:var(--accent)">
+    <img id="logo" class="abs" src="../assets/brand/logo.png" style="left:50%;top:42%;width:640px;transform:translate(-50%,-50%)">
+    <h2 id="tagline" class="abs" style="left:0;right:0;top:640px;text-align:center;font-size:72px">Slogan oficial da marca.</h2>
+  </section>
+  <section class="scene" id="cta">
+    <h2 id="ctaTitle" class="abs" style="left:160px;top:320px;font-size:96px">Tens um desafio?</h2>
+    <div id="ctaBtn" class="abs" style="left:160px;top:560px;padding:28px 44px;border-radius:14px;background:var(--accent);font:700 40px 'Body'">Falar connosco →</div>
+    <div id="ctaUrl" class="abs" style="left:160px;top:700px;font:600 44px 'Body';color:var(--muted)">marca.pt</div>
+  </section>
+  <div id="grain"></div>
+</div>
+<script src="cues.js"></script>
+<script src="vo_words.js" onerror="window.VO_WORDS = {}"></script>
+<script src="../assets/footage/footage.js" onerror="window.FOOTAGE = {}"></script>
+<script src="engine.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Editar vídeo de alguém a falar"
+  short_description: "Acrescenta legendas e animações a uma gravação de fala."
+  default_prompt: "Usa $talking-head-motion e guia-me com uma pergunta de cada vez para editar um vídeo de alguém a falar."

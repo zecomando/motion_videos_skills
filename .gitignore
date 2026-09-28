@@ -1,0 +1,24 @@
+# Credenciais locais; distribuir apenas modelos vazios.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependências e caches.
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+*.log
+
+# Projetos e resultados criados a partir das skills.
+/projects/
+/outputs/
+out/
+/.verification/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Criar narração com voz de IA"
+  short_description: "Transforma um guião em voz para acompanhar o teu vídeo."
+  default_prompt: "Usa $promo-voiceover e guia-me com uma pergunta de cada vez para criar uma narração com voz de IA."

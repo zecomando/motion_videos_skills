@@ -1,0 +1,37 @@
+{
+  "fps": 30,
+  "width": 720,
+  "height": 1280,
+  "durationInFrames": 480,
+  "theme": {
+    "background": "#07101b",
+    "foreground": "#f5f7fb",
+    "accent": "#baff52",
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "demoLabel": "DEMONSTRAÇÃO"
+  },
+  "clips": [
+    {"src": "", "fromFrame": 0, "sourceStartFrame": 0, "durationInFrames": 480, "volume": 1}
+  ],
+  "scenes": [
+    {"kind": "hook", "fromFrame": 0, "durationInFrames": 60, "title": "Torna a tua ideia visível."},
+    {"kind": "upload", "fromFrame": 60, "durationInFrames": 60, "title": "gravação.mp4", "body": "Uma gravação. Uma história por contar."},
+    {"kind": "prompt", "fromFrame": 120, "durationInFrames": 90, "title": "O pedido de edição", "body": "Corta as pausas.\nAcrescenta legendas legíveis.\nDestaca a ideia principal.", "hideCaptions": true},
+    {"kind": "steps", "fromFrame": 210, "durationInFrames": 120, "title": "Da gravação à história", "items": ["Organizar os cortes", "Sincronizar as palavras", "Construir os destaques", "Rever imagem e som"], "stepFrames": [0, 27, 59, 86]},
+    {"kind": "emphasis", "fromFrame": 330, "durationInFrames": 60, "title": "COM CLAREZA"},
+    {"kind": "cta", "fromFrame": 390, "durationInFrames": 90, "title": "Uma montagem completa.", "items": ["Cortes com intenção", "Palavras sincronizadas", "Destaques claros"], "endTitle": "Agora conta a tua história.", "endBody": "Substitui os dados de demonstração pelo teu vídeo e pela tua mensagem."}
+  ],
+  "captions": [
+    {"text": "Dados", "startMs": 500, "endMs": 850, "timestampMs": null, "confidence": null},
+    {"text": " de", "startMs": 850, "endMs": 1050, "timestampMs": null, "confidence": null},
+    {"text": " demonstração", "startMs": 1050, "endMs": 1700, "timestampMs": null, "confidence": null},
+    {"text": " Uma", "startMs": 4400, "endMs": 4700, "timestampMs": null, "confidence": null},
+    {"text": " palavra", "startMs": 4700, "endMs": 5100, "timestampMs": null, "confidence": null},
+    {"text": " de", "startMs": 5100, "endMs": 5300, "timestampMs": null, "confidence": null},
+    {"text": " cada", "startMs": 5300, "endMs": 5600, "timestampMs": null, "confidence": null},
+    {"text": " vez.", "startMs": 5600, "endMs": 5900, "timestampMs": null, "confidence": null},
+    {"text": " Texto", "startMs": 9300, "endMs": 9700, "timestampMs": null, "confidence": null},
+    {"text": " de", "startMs": 9700, "endMs": 9900, "timestampMs": null, "confidence": null},
+    {"text": " exemplo.", "startMs": 9900, "endMs": 10400, "timestampMs": null, "confidence": null}
+  ]
+}

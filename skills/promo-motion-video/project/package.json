@@ -1,0 +1,20 @@
+{
+  "name": "promo",
+  "private": true,
+  "type": "commonjs",
+  "description": "Promo video: HTML/CSS/JS timeline rendered with Playwright, encoded and mixed with FFmpeg",
+  "scripts": {
+    "research": "node research.mjs",
+    "stills": "node render.mjs --stills",
+    "render": "node render.mjs",
+    "music": "node audio.mjs",
+    "mux": "node mux.mjs --web",
+    "check": "node check.mjs"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}

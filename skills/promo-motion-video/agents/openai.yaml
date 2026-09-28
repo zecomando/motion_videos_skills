@@ -1,0 +1,4 @@
+interface:
+  display_name: "Criar vídeo de marca ou produto"
+  short_description: "Vídeos de marcas e produtos com texto, música e animações"
+  default_prompt: "Usa $promo-motion-video e guia-me com uma pergunta de cada vez para criar um vídeo da minha marca ou produto."

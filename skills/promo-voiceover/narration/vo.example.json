@@ -1,0 +1,96 @@
+{
+  "brand": "Marca",
+  "brief": "45-second promo for Marca, a Porto agency that plans and runs brand events. Audience: marketing directors in Portugal. Tone: confident, energetic, warm, collaborative. Male voice, native European Portuguese (Portugal), modern commercial read.",
+  "language": "pt-PT",
+  "provider": "gemini",
+  "voice": null,
+  "style": "confident, energetic, warm commercial read",
+  "takes": 3,
+  "maxRate": 5.5,
+  "judges": [
+    "gemini-3.8-flash",
+    "gemini-3.1-pro-preview"
+  ],
+  "required": [
+    "marca"
+  ],
+  "aliases": [
+    [
+      "ponto com",
+      "com"
+    ]
+  ],
+  "maxPause": 0.45,
+  "keepPause": 0.3,
+  "lineGap": 0.3,
+  "sceneGap": 0.9,
+  "casting": {
+    "text": "Um evento. Uma loja. Uma campanha. <short pause> Tudo tem de acontecer à primeira. Com a Marca, a tua ideia chega ao terreno — e dá resultado. Fala connosco.",
+    "style": "confident, energetic, warm commercial read",
+    "takes": 2,
+    "candidates": [
+      "pt-pt-storyteller-8",
+      "pt-pt-podcaster-1"
+    ],
+    "designs": [
+      {
+        "key": "bold",
+        "gender": "male",
+        "description": "A confident, energetic man from Porto in his mid thirties, native European Portuguese, warm mid-low voice with crisp diction and a modern commercial edge."
+      }
+    ]
+  },
+  "pron": [
+    {
+      "id": "brand",
+      "label": "brand name read in English inside a pt-PT line",
+      "canonical": "Marca",
+      "variants": [
+        "Marca",
+        "MARCA"
+      ],
+      "line": "Isto é a {X}.",
+      "expect": "marca"
+    }
+  ],
+  "groups": [
+    {
+      "id": "g1",
+      "style": "intriguing, punchy, building energy",
+      "lines": [
+        {
+          "id": "v01",
+          "text": "Um evento. Uma loja. Uma campanha."
+        },
+        {
+          "id": "v02",
+          "text": "Tudo tem de acontecer à primeira."
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "lines": [
+        {
+          "id": "v03",
+          "text": "Se é para acontecer, fazemos acontecer."
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "style": "warm, inviting, confident",
+      "lines": [
+        {
+          "id": "v04",
+          "text": "Tens um desafio? É suficiente para começar."
+        },
+        {
+          "id": "v05",
+          "text": "marca.pt",
+          "tts": "marca ponto pê tê"
+        }
+      ]
+    }
+  ]
+}
