@@ -11,6 +11,10 @@ Parte de um vídeo já gravado em que uma pessoa fala e acrescenta legendas que 
 
 **Entrega:** vídeo MP4 e projeto Remotion editável. A skill inclui receitas visuais de uma referência analisada, que podem ser adaptadas à tua marca.
 
+## Codex e Claude Code
+
+Invocar com `$talking-head-motion` no Codex ou `/talking-head-motion` no Claude Code. Resolver scripts, referências e o template a partir da pasta deste `SKILL.md`; criar e executar a edição na pasta do projeto do utilizador. Para recolher escolhas, usar a ferramenta de perguntas disponível ou uma mensagem normal e esperar pela resposta. O fluxo abaixo é comum aos dois assistentes.
+
 ## Começar com uma pergunta de cada vez
 
 Para uma nova edição, ler [as perguntas de definição](references/briefing.md).
@@ -62,7 +66,8 @@ Ler apenas os recursos necessários ao pedido. Para explicar um efeito, consulta
 
 ## Exemplos de utilização
 
-- «Usa $talking-head-motion e guia-me, uma pergunta de cada vez, para editar um vídeo meu a falar.»
+- Codex: «Usa $talking-head-motion e guia-me, uma pergunta de cada vez, para editar um vídeo meu a falar.»
+- Claude Code: «/talking-head-motion Guia-me, uma pergunta de cada vez, para editar um vídeo meu a falar.»
 - «Edita esta gravação para um reel com legendas e palavras em destaque.»
 - «Recria só a transição do rosto em ecrã inteiro para o painel de quatro passos.»
 - «Adapta o template à nossa marca, mantendo a fala e removendo o cartão de prompt.»

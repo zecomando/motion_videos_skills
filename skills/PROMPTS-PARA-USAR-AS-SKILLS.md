@@ -1,6 +1,6 @@
 # Escolhe o que queres criar
 
-Depois de [instalares as skills](../README.md#começar-passo-a-passo), copia um dos comandos abaixo para o Codex. A skill faz uma pergunta de cada vez e espera pela tua resposta. Aproveita a informação que já deste, sugere opções e começa o trabalho quando as escolhas necessárias estiverem definidas. Podes responder «escolhe por mim» a uma preferência.
+Depois de [instalares as skills](../README.md#começar-passo-a-passo), copia o comando do teu assistente: **Codex** ou **Claude Code**. A skill faz uma pergunta de cada vez e espera pela tua resposta. Aproveita a informação que já deste, sugere opções e começa o trabalho quando as escolhas necessárias estiverem definidas. Podes responder «escolhe por mim» a uma preferência.
 
 ## 1. Criar um vídeo de uma marca ou produto
 
@@ -10,8 +10,16 @@ Depois de [instalares as skills](../README.md#começar-passo-a-passo), copia um 
 
 **Recebes:** vídeo MP4, guião e projeto editável.
 
+**No Codex:**
+
 ```text
 Usa $promo-motion-video e guia-me com uma pergunta de cada vez para criar um vídeo da minha marca ou produto.
+```
+
+**No Claude Code:**
+
+```text
+/promo-motion-video Guia-me com uma pergunta de cada vez para criar um vídeo da minha marca ou produto.
 ```
 
 A primeira pergunta, se ainda não deste essa informação, será: «Qual é o site da marca ou do produto que queres divulgar?» Depois definem-se o objetivo, o público, o formato, a duração, a língua, o estilo e o som.
@@ -24,8 +32,16 @@ A primeira pergunta, se ainda não deste essa informação, será: «Qual é o s
 
 **Recebes:** ficheiro de áudio WAV, texto narrado e tempos das frases. Escolhe esta opção quando precisas da voz; a opção 1 trata do vídeo completo.
 
+**No Codex:**
+
 ```text
 Usa $promo-voiceover e guia-me com uma pergunta de cada vez para criar uma narração com voz de IA.
+```
+
+**No Claude Code:**
+
+```text
+/promo-voiceover Guia-me com uma pergunta de cada vez para criar uma narração com voz de IA.
 ```
 
 A primeira pergunta, se ainda faltar essa informação, será: «Já tens o texto que a voz deve dizer?» Depois definem-se o contexto, a língua, a duração, o tipo de voz e o tom.
@@ -38,8 +54,16 @@ A primeira pergunta, se ainda faltar essa informação, será: «Já tens o text
 
 **Recebes:** vídeo MP4 e projeto editável, mantendo a pessoa e a sua voz.
 
+**No Codex:**
+
 ```text
 Usa $talking-head-motion e guia-me com uma pergunta de cada vez para editar um vídeo de alguém a falar.
+```
+
+**No Claude Code:**
+
+```text
+/talking-head-motion Guia-me com uma pergunta de cada vez para editar um vídeo de alguém a falar.
 ```
 
 A primeira pergunta será: «Qual é a gravação que queres editar?» Depois definem-se o resultado pretendido, o formato, os cortes e o estilo. Se já enviaste o vídeo, a skill avança para a próxima informação em falta.

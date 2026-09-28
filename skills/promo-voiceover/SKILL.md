@@ -11,6 +11,10 @@ Transforma um guião em áudio falado para acompanhar um anúncio ou vídeo. Pod
 
 **Entrega:** ficheiro de voz WAV, texto narrado e tempos das frases para montar o vídeo. O resultado desta skill é o áudio; para produzir também as imagens, usar `promo-motion-video`.
 
+## Codex e Claude Code
+
+Invocar com `$promo-voiceover` no Codex ou `/promo-voiceover` no Claude Code. Resolver scripts e referências a partir da pasta deste `SKILL.md`; copiar os recursos de narração para o projeto do utilizador antes de os configurar. Para recolher escolhas, usar a ferramenta de perguntas disponível ou uma mensagem normal e esperar pela resposta. O fluxo abaixo é comum aos dois assistentes.
+
 ## Começar com uma pergunta de cada vez
 
 Para uma nova narração, ler [as perguntas de definição](references/briefing.md).

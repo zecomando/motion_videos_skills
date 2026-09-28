@@ -11,6 +11,10 @@ Transforma o site de uma marca num vídeo que apresenta o que ela oferece e conv
 
 **Entrega:** MP4 pronto a partilhar, guião e localização do projeto editável.
 
+## Codex e Claude Code
+
+Invocar com `$promo-motion-video` no Codex ou `/promo-motion-video` no Claude Code. Resolver scripts e referências a partir da pasta deste `SKILL.md`; criar e executar a produção na pasta do projeto do utilizador. Para recolher escolhas, usar a ferramenta de perguntas disponível ou uma mensagem normal e esperar pela resposta. O fluxo abaixo é comum aos dois assistentes.
+
 ## Começar com uma pergunta de cada vez
 
 Para um novo vídeo, ler [as perguntas de definição](references/briefing.md) antes de produzir.
